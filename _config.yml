@@ -11,15 +11,11 @@ plugins:
   - jekyll-include-cache
 exclude:
   - README.md
+  - AGENTS.md
+  - docs
   - Gemfile
   - Gemfile.lock
+  - bin
+  - vendor
 atom_feed:
   hide: true
-footer:
-  links:
-    - label: Instagram
-      icon: fab fa-instagram
-      url: https://www.instagram.com/keyakisepa/
-    - label: X（旧Twitter）
-      icon: fab fa-x-twitter
-      url: https://x.com/keyaki_sepa

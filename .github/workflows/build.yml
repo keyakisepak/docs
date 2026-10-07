@@ -2,10 +2,11 @@ name: Build GitHub Pages
 
 on:
   pull_request:
+    branches:
+      - main
   push:
     branches:
       - main
-      - feature/github-pages-splash
 
 permissions:
   contents: read
@@ -27,3 +28,6 @@ jobs:
           grep -q '/docs/assets/images/hero.svg' _site/index.html
           test ! -e _site/README.html
           test ! -e _site/Gemfile
+          test ! -e _site/docs
+          test ! -e _site/AGENTS.html
+          test ! -e _site/AGENTS.md
