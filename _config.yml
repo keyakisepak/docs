@@ -13,6 +13,7 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - bin
 atom_feed:
   hide: true
 footer:
