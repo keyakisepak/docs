@@ -3,6 +3,7 @@ layout: splash
 title: 欅セパタクロークラブ
 excerpt: 千葉県松戸市で活動するセパタクロー団体です。
 header:
+  logo: /assets/images/loco.png
   overlay_color: "#123d46"
   overlay_image: /assets/images/hero.svg
   overlay_filter: 0.15
@@ -10,8 +11,6 @@ header:
     - label: 体験・練習参加のお問い合わせ
       url: /#contact
 ---
-
-![欅セパタクロークラブのチームロゴ]({{ "/assets/images/loco.jpg" | relative_url }}){: .club-logo}
 
 ## 松戸で、セパタクローを楽しもう。
 

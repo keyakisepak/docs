@@ -41,11 +41,41 @@
   }
 }
 
-.club-logo {
-  display: block;
-  width: 12rem;
-  max-width: 100%;
+.page__hero--overlay .club-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(12rem, 18rem);
+  align-items: center;
+  gap: 2rem;
+}
+
+.club-hero__content {
+  min-width: 0;
+
+  .page__title {
+    font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.club-hero__logo {
+  width: 100%;
   height: auto;
-  margin: 0 auto 2rem;
-  border-radius: 0.5rem;
+  filter: drop-shadow(0 0.5rem 1.5rem rgba(0, 0, 0, 0.15));
+}
+
+@media (max-width: 48em) {
+  .page__hero--overlay .club-hero {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    text-align: center;
+  }
+
+  .club-hero__logo {
+    grid-row: 1;
+    width: 8rem;
+    justify-self: center;
+  }
 }
