@@ -4,6 +4,8 @@ main:
   - title: お問い合わせ
     url: /#contact
   - title: Instagram
+    icon: fab fa-instagram
     url: https://www.instagram.com/keyakisepa/
   - title: X（旧Twitter）
+    icon: fab fa-x-twitter
     url: https://x.com/keyaki_sepa
