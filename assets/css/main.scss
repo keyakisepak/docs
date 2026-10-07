@@ -88,28 +88,9 @@
   margin-bottom: 1rem;
 
   iframe {
+    display: block;
     width: 100%;
     height: 600px;
     border: 0;
-  }
-
-  .practice-calendar__month {
-    display: block;
-  }
-
-  .practice-calendar__agenda {
-    display: none;
-  }
-}
-
-@media (max-width: 48em) {
-  .practice-calendar {
-    .practice-calendar__month {
-      display: none;
-    }
-
-    .practice-calendar__agenda {
-      display: block;
-    }
   }
 }
