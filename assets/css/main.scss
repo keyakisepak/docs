@@ -1,0 +1,42 @@
+---
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+.practice-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.practice-card {
+  padding: 1.5rem;
+  border: 1px solid #d8e7e5;
+  border-top: 4px solid #008a87;
+  border-radius: 0.5rem;
+  background: #f5faf9;
+
+  h3 {
+    margin-top: 0;
+    color: #006e6b;
+  }
+
+  h4 {
+    margin-top: 1.25rem;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 48em) {
+  .practice-grid {
+    grid-template-columns: 1fr;
+  }
+}

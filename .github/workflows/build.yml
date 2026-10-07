@@ -1,0 +1,29 @@
+name: Build GitHub Pages
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - feature/github-pages-splash
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/jekyll-build-pages@v1
+      - name: Verify rendered homepage and assets
+        run: |
+          test -s _site/index.html
+          test -s _site/assets/css/main.css
+          test -s _site/assets/images/hero.svg
+          grep -q 'class="splash"' _site/index.html
+          grep -q '欅セパタクロークラブ' _site/index.html
+          grep -q '/docs/assets/css/main.css' _site/index.html
+          grep -q '/docs/assets/images/hero.svg' _site/index.html
+          test ! -e _site/README.html
+          test ! -e _site/Gemfile

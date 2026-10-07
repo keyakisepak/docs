@@ -1,0 +1,25 @@
+title: 欅セパタクロークラブ
+description: 千葉県松戸市で活動するセパタクロー団体。体験・練習参加を歓迎しています。
+locale: ja-JP
+url: https://keyakisepak.github.io
+baseurl: /docs
+repository: keyakisepak/docs
+remote_theme: mmistakes/minimal-mistakes@4.28.1
+minimal_mistakes_skin: aqua
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+atom_feed:
+  hide: true
+footer:
+  links:
+    - label: Instagram
+      icon: fab fa-instagram
+      url: https://www.instagram.com/keyakisepa/
+    - label: X（旧Twitter）
+      icon: fab fa-x-twitter
+      url: https://x.com/keyaki_sepa
