@@ -63,8 +63,7 @@ JR常磐線 **北松戸駅から徒歩約20分**
 予定はカレンダーをご確認ください。
 
 <div class="practice-calendar">
-  <iframe class="practice-calendar__month" src="https://calendar.google.com/calendar/embed?src=keyakisepak%40gmail.com&amp;ctz=Asia%2FTokyo&amp;hl=ja" title="欅セパタクロークラブのカレンダー（月表示）" width="800" height="600" loading="lazy"></iframe>
-  <iframe class="practice-calendar__agenda" src="https://calendar.google.com/calendar/embed?src=keyakisepak%40gmail.com&amp;ctz=Asia%2FTokyo&amp;hl=ja&amp;mode=AGENDA" title="欅セパタクロークラブのカレンダー（予定一覧）" width="800" height="600" loading="lazy"></iframe>
+  <iframe src="https://calendar.google.com/calendar/embed?src=keyakisepak%40gmail.com&amp;ctz=Asia%2FTokyo&amp;hl=ja&amp;mode=MONTH" title="欅セパタクロークラブのカレンダー（月表示）" width="800" height="600" loading="lazy"></iframe>
 </div>
 
 [Google カレンダーで開く](https://calendar.google.com/calendar/embed?src=keyakisepak%40gmail.com&ctz=Asia%2FTokyo&hl=ja){: .btn .btn--primary}
