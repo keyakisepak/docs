@@ -1,6 +1,7 @@
 title: 欅セパタクロークラブ
 description: 千葉県松戸市で活動するセパタクロー団体。体験・練習参加を歓迎しています。
 locale: ja-JP
+logo: /assets/images/loco.jpg
 url: https://keyakisepak.github.io
 baseurl: /docs
 repository: keyakisepak/docs

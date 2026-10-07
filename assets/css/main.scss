@@ -40,3 +40,12 @@
     grid-template-columns: 1fr;
   }
 }
+
+.club-logo {
+  display: block;
+  width: 12rem;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 2rem;
+  border-radius: 0.5rem;
+}
