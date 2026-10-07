@@ -11,6 +11,8 @@ plugins:
   - jekyll-include-cache
 exclude:
   - README.md
+  - AGENTS.md
+  - docs
   - Gemfile
   - Gemfile.lock
   - bin
