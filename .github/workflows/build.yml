@@ -24,7 +24,8 @@ jobs:
           test -s _site/assets/images/hero.svg
           grep -q 'class="splash"' _site/index.html
           grep -q '欅セパタクロークラブ' _site/index.html
-          grep -q '/docs/assets/css/main.css' _site/index.html
+          grep -Eq '/docs/assets/css/main\.css\?v=[0-9]+' _site/index.html
+          grep -q 'club-hero__logo' _site/assets/css/main.css
           grep -q '/docs/assets/images/hero.svg' _site/index.html
           test ! -e _site/README.html
           test ! -e _site/Gemfile
