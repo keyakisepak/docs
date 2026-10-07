@@ -1,0 +1,17 @@
+title: keyakisepak
+description: サークルの活動やお知らせをご案内する公開ページ
+locale: ja-JP
+url: https://keyakisepak.github.io
+baseurl: /docs
+repository: keyakisepak/docs
+remote_theme: mmistakes/minimal-mistakes@4.28.1
+minimal_mistakes_skin: aqua
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+atom_feed:
+  hide: true
