@@ -22,7 +22,7 @@ jobs:
           test -s _site/assets/css/main.css
           test -s _site/assets/images/hero.svg
           grep -q 'class="splash"' _site/index.html
-          grep -q '公開ページを準備しています' _site/index.html
+          grep -q '欅セパタクロークラブ' _site/index.html
           grep -q '/docs/assets/css/main.css' _site/index.html
           grep -q '/docs/assets/images/hero.svg' _site/index.html
           test ! -e _site/README.html
